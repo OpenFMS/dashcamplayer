@@ -7,19 +7,19 @@
       "url": "https://mgholiday.oss-cn-shenzhen.aliyuncs.com/player/DashCamPlayer-1.0.0-mac-arm64.zip",
       "label": "macOS (Apple Silicon)",
       "fileName": "DashCamPlayer-1.0.0-mac-arm64.zip",
-      "size": "45 MB"
+      "size": "108.7 MB"
     },
     "macos_x64": {
       "url": "https://mgholiday.oss-cn-shenzhen.aliyuncs.com/player/DashCamPlayer-1.0.0-mac-x64.dmg",
       "label": "macOS (Intel)",
       "fileName": "DashCamPlayer-1.0.0-mac-x64.dmg",
-      "size": "48 MB"
+      "size": "112.7 MB"
     },
     "windows": {
       "url": "https://mgholiday.oss-cn-shenzhen.aliyuncs.com/player/DashCamPlayer-1.0.0-win-x64.exe",
       "label": "Windows",
       "fileName": "DashCamPlayer-1.0.0-win-x64.exe",
-      "size": "52 MB"
+      "size": "96.7 MB"
     }
   }
 }
