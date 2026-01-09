@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+import heroImage from "@/assets/hero.jpg";
 
 const Hero = () => {
   const scrollToDownload = () => {
@@ -30,18 +31,14 @@ const Hero = () => {
             </Button>
           </div>
           
-          {/* Right side - Product screenshot placeholder */}
+          {/* Right side - Product screenshot */}
           <div className="flex-1 w-full max-w-2xl">
-            <div className="relative aspect-video bg-muted rounded-xl border border-border overflow-hidden shadow-lg">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center text-muted-foreground">
-                  <div className="w-16 h-16 mx-auto mb-4 bg-muted-foreground/20 rounded-lg flex items-center justify-center">
-                    <span className="text-2xl">🎬</span>
-                  </div>
-                  <p className="text-sm">Product Screenshot</p>
-                  <p className="text-xs mt-1">Upload your image to replace</p>
-                </div>
-              </div>
+            <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl">
+              <img 
+                src={heroImage} 
+                alt="DashcamPlayer interface showing video playback with GPS route visualization"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
