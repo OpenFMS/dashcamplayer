@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Apple, Monitor, Download } from "lucide-react";
+import { Apple, Monitor } from "lucide-react";
 
 interface DownloadInfo {
   url: string;
@@ -14,7 +14,8 @@ interface DownloadsData {
   releaseDate: string;
   releaseNotes: string;
   downloads: {
-    macos: DownloadInfo;
+    macos_arm64: DownloadInfo;
+    macos_x64: DownloadInfo;
     windows: DownloadInfo;
   };
 }
@@ -51,21 +52,37 @@ const DownloadSection = () => {
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-          {/* macOS Download */}
-          <Button
-            asChild
-            size="lg"
-            className="w-full sm:w-auto gap-3 px-8 py-6 text-base"
-          >
-            <a href={data.downloads.macos.url} download>
-              <Apple className="w-5 h-5" />
-              <div className="text-left">
-                <div className="font-semibold">Download for macOS</div>
-                <div className="text-xs opacity-80">{data.downloads.macos.size}</div>
-              </div>
-            </a>
-          </Button>
+        <div className="flex flex-col items-center gap-6 mb-8">
+          {/* macOS Downloads */}
+          <div className="flex flex-col sm:flex-row items-center gap-3">
+            <Button
+              asChild
+              size="lg"
+              className="w-full sm:w-auto gap-3 px-8 py-6 text-base"
+            >
+              <a href={data.downloads.macos_arm64.url} download>
+                <Apple className="w-5 h-5" />
+                <div className="text-left">
+                  <div className="font-semibold">macOS (Apple Silicon)</div>
+                  <div className="text-xs opacity-80">{data.downloads.macos_arm64.size}</div>
+                </div>
+              </a>
+            </Button>
+
+            <Button
+              asChild
+              size="lg"
+              className="w-full sm:w-auto gap-3 px-8 py-6 text-base"
+            >
+              <a href={data.downloads.macos_x64.url} download>
+                <Apple className="w-5 h-5" />
+                <div className="text-left">
+                  <div className="font-semibold">macOS (Intel)</div>
+                  <div className="text-xs opacity-80">{data.downloads.macos_x64.size}</div>
+                </div>
+              </a>
+            </Button>
+          </div>
 
           {/* Windows Download */}
           <Button
