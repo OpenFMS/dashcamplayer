@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "releaseDate": "2025-01-09",
+  "releaseNotes": "Initial release with core playback features",
+  "downloads": {
+    "macos": {
+      "url": "https://example.com/downloads/DashcamPlayer-1.0.0.dmg",
+      "label": "macOS",
+      "fileName": "DashcamPlayer-1.0.0.dmg",
+      "size": "45 MB"
+    },
+    "windows": {
+      "url": "https://example.com/downloads/DashcamPlayer-1.0.0.exe",
+      "label": "Windows",
+      "fileName": "DashcamPlayer-1.0.0.exe",
+      "size": "52 MB"
+    }
+  }
+}
