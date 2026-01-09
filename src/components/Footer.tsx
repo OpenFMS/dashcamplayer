@@ -1,3 +1,5 @@
+import logo from "@/assets/logo.png";
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -7,9 +9,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-6 h-6 bg-primary rounded flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-xs">D</span>
-            </div>
+            <img src={logo} alt="DashcamPlayer" className="w-6 h-6 rounded" />
             <span className="font-medium text-foreground">DashcamPlayer</span>
           </div>
 
