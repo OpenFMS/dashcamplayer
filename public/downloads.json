@@ -1,24 +1,24 @@
 {
-  "version": "1.0.0",
-  "releaseDate": "2025-01-09",
+  "version": "1.0.1",
+  "releaseDate": "2025-01-15",
   "releaseNotes": "Initial release with core playback features",
   "downloads": {
     "macos_arm64": {
-      "url": "https://mgholiday.oss-cn-shenzhen.aliyuncs.com/player/DashCamPlayer-1.0.0-mac-arm64.dmg",
+      "url": "https://mgholiday.oss-cn-shenzhen.aliyuncs.com/player/DashCamPlayer-1.0.1-mac-arm64.dmg",
       "label": "macOS (Apple Silicon)",
-      "fileName": "DashCamPlayer-1.0.0-mac-arm64.dmg",
+      "fileName": "DashCamPlayer-1.0.1-mac-arm64.dmg",
       "size": "108.7 MB"
     },
     "macos_x64": {
-      "url": "https://mgholiday.oss-cn-shenzhen.aliyuncs.com/player/DashCamPlayer-1.0.0-mac-x64.dmg",
+      "url": "https://mgholiday.oss-cn-shenzhen.aliyuncs.com/player/DashCamPlayer-1.0.1-mac-x64.dmg",
       "label": "macOS (Intel)",
-      "fileName": "DashCamPlayer-1.0.0-mac-x64.dmg",
+      "fileName": "DashCamPlayer-1.0.1-mac-x64.dmg",
       "size": "112.7 MB"
     },
     "windows": {
-      "url": "https://mgholiday.oss-cn-shenzhen.aliyuncs.com/player/DashCamPlayer-1.0.0-win-x64.exe",
+      "url": "https://mgholiday.oss-cn-shenzhen.aliyuncs.com/player/DashCamPlayer-1.0.1-win-x64.exe,
       "label": "Windows",
-      "fileName": "DashCamPlayer-1.0.0-win-x64.exe",
+      "fileName": "DashCamPlayer-1.0.1-win-x64.exe",
       "size": "96.7 MB"
     }
   }
