@@ -1,53 +1,27 @@
 # Welcome to DashcamPlayer
 
-## How can I edit this code?
+DashcamPlayer 是一款专业的行车记录仪视频播放软件，支持GPS轨迹可视化、速度显示、地图同步播放。支持 macOS 和 Windows 系统。
 
-There are several ways of editing your application.
+本项目是DashcamPlayer的官网，使用Vite+React+TypeScript+shadcn-ui+Tailwind CSS开发。
 
-**Use your preferred IDE**
+提供更新日志、下载地址、用户手册、FAQ、帮助等信息。
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 如何运行项目
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone 项目到本地
 
-Follow these steps:
+2. 安装依赖
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+   ```bash
+   npm install
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. 运行项目
 
-# Step 3: Install the necessary dependencies.
-npm i
+   ```bash
+   npm run dev
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+4. 打开浏览器访问 http://localhost:8080 
 
 

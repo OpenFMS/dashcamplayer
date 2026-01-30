@@ -1,7 +1,7 @@
 {
   "version": "1.1.0",
   "releaseDate": "2025-01-30",
-  "releaseNotes": "Initial release with core playback features",
+  "releaseNotes": "",
   "downloads": {
     "macos_arm64": {
       "url": "https://mgholiday.oss-cn-shenzhen.aliyuncs.com/player/mac-arm64/DashCamPlayer-1.1.0-mac-arm64.dmg",

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Apple, Monitor } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface DownloadInfo {
   url: string;
@@ -101,6 +102,10 @@ const DownloadSection = () => {
         <div className="text-center text-sm text-muted-foreground">
           <p>
             Version {data.version} · Released {data.releaseDate}
+            {" · "}
+            <Link to="/release" className="text-primary hover:underline">
+              More Info
+            </Link>
           </p>
           <p className="mt-1">{data.releaseNotes}</p>
         </div>

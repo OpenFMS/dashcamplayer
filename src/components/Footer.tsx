@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
@@ -8,10 +9,10 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Logo */}
-          <div className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <img src={logo} alt="DashcamPlayer" className="w-6 h-6 rounded" />
             <span className="font-medium text-foreground">DashcamPlayer</span>
-          </div>
+          </Link>
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground">
