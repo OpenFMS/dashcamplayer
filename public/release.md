@@ -16,6 +16,7 @@
 
 ---
 
+## v1.1.0 (2026-01-30)
 
 ### New Features
 1. Added “Save Video As”
