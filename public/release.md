@@ -1,5 +1,21 @@
 # Release Notes
 
+## v1.2.0 (2026-03-13)
+
+### New Features
+1. Added click-to-zoom functionality for video playback
+2. Added in-app issue feedback feature
+3. Integrated GA4 analytics
+4. Fixed known bugs
+
+<!-- 1. 增加播放器视频点击放大功能
+2. 增肌问题反馈功能
+3. 增加GA4数据统计
+4. 修复已知bug -->
+
+
+---
+
 ## v1.1.1 (2026-02-06)
 
 ### New Features
